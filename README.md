@@ -1,7 +1,7 @@
 # ImagineAI - README
 
 ## Project Overview
-This project showcases an AI Art Gallery website named "ImagineAI." The website features AI-generated artwork across various themes and aims to engage users by providing an immersive experience into the world of artificial intelligence in art.
+This project showcases an AI Art Gallery website named "ImagineAI." The website features AI-generated artwork across various themes and aims to engage users by providing an immersive experience in the world of artificial intelligence in art.
 
 ## Page Descriptions
 
@@ -9,10 +9,10 @@ This project showcases an AI Art Gallery website named "ImagineAI." The website 
 - **Welcome Message**: The home page welcomes visitors and introduces the concept of the gallery. It provides an overview of the purpose of the gallery, encouraging exploration of the AI-generated artwork.
   
 ### Galleries Page
-- **Art Themes**: This section lists the different categories of artwork featured in the gallery, including abstract art, surreal landscapes, portraits, and digital installations. It invites users to explore and check back for new exhibitions.
+- **Art Themes**: This section lists the different types of artwork featured in the gallery, including abstract art, surreal landscapes, portraits, and digital installations. It invites users to explore and check back for new exhibitions.
 
 ### Featured Artworks Section
-- **Art Pieces**: The sidebar highlights selected AI-generated artworks along with their respective artists. This section draws attention to notable pieces that may intrigue visitors.
+- **Art Pieces**: The sidebar highlights selected AI-generated artworks by me. This section draws attention to notable pieces that may intrigue visitors.
 
 ### Footer
 - **Copyright Notice**: The footer provides a copyright statement to protect the content of the website.
@@ -22,6 +22,7 @@ This project showcases an AI Art Gallery website named "ImagineAI." The website 
 - CSS for styling (with a dark theme)
 - Google Fonts for typography
 - OpenAI for corrections and assistance
+- StableDiffusion txt2img
 
 ## Future Enhancements
 - Adding interactivity with JavaScript
@@ -31,4 +32,4 @@ This project showcases an AI Art Gallery website named "ImagineAI." The website 
 
 ## Author
 - John A.
-- 10/6/2024
+- 10/14/2024
