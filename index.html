@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Art Gallery</title>
+    <title>AI Art Gallery - Home</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -17,10 +19,10 @@
     <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#galleries">Galleries</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galleries.html">Galleries</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -31,35 +33,46 @@
             <h2>Welcome to ImagineAI</h2>
             <p>Explore various themes of AI-generated artwork.</p>
             <p>Our gallery showcases unique creations from talented artists and AI technologies.</p>
-            <p>Join us on this artistic journey!</p>
-        </section>
-
-        <!-- Galleries Section -->
-        <section id="galleries">
-            <h2>Our Galleries</h2>
-            <p>We feature diverse collections, including:</p>
-            <ul>
-                <li>Abstract Art</li>
-                <li>Surreal Landscapes</li>
-                <li>Portraits</li>
-                <li>Digital Installations</li>
-            </ul>
-            <p>Check back often for new exhibitions and featured artists!</p>
         </section>
 
         <!-- Featured Artworks Section -->
-        <aside>
+        <section id="featured-artworks">
             <h3>Featured Artworks</h3>
-            <p>1. Dreamscape by AI Artist X</p>
-            <p>2. The Infinite Loop by AI Artist Y</p>
-            <p>3. Fractal Harmony by AI Artist Z</p>
-            <p>Visit our galleries to see more stunning pieces!</p>
-        </aside>
+
+            <div class="featured-container">
+                <div class="featured-item">
+                    <a href="img/Universe.png" data-lightbox="gallery" data-title="Celestial Sky">
+                        <img src="img/Universe.png" alt="Celestial Sky">
+                    </a>
+                    <h4>Celestial Sky</h4>
+                    <p>A mesmerizing blend of waves and stars, this artwork captures the beauty of the cosmic oceans.</p>
+                </div>
+
+                <div class="featured-item">
+                    <a href="img/Nightmare.png" data-lightbox="gallery" data-title="Nightmare in the Woods">
+                        <img src="img/Nightmare.png" alt="Nightmare in the Woods">
+                    </a>
+                    <h4>Nightmare in the Woods</h4>
+                    <p>Step into a futuristic city where neon lights illuminate the bustling streets of a world governed by AI.</p>
+                </div>
+
+                <div class="featured-item">
+                    <a href="img/FarawayDream.png" data-lightbox="gallery" data-title="Far Away Dream">
+                        <img src="img/FarawayDream.png" alt="Far Away Dream">
+                    </a>
+                    <h4>Far Away Dream</h4>
+                    <p>A modern take on classical art, this piece reimagines Renaissance portraits through the lens of artificial intelligence.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 ImagineAI. All rights reserved.</p>
     </footer>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
