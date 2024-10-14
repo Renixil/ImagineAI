@@ -192,3 +192,108 @@ footer {
     background-color: #292929;
     color: #f4f4f4;
 }
+/* Global Styles */
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #f4f4f4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #f4f4f4;
+}
+
+.gallery-item p {
+    color: #b3b3b3;
+}
+
+/* Lightbox */
+.lightboxOverlay {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #292929;
+    color: #f4f4f4;
+}
+
+/* Responsive Design: For smaller screens */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
