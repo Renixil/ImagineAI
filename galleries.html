@@ -6,6 +6,8 @@
     <title>AI Art Gallery - Galleries</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -26,33 +28,80 @@
 
     <!-- Main Content Area -->
     <main>
-        <!-- Galleries Section -->
-        <section id="galleries">
-            <h2>Our Galleries</h2>
-            <p>We feature diverse collections, including:</p>
-            <ul>
-                <li>Abstract Art</li>
-                <li>Surreal Landscapes</li>
-                <li>Portraits</li>
-                <li>Cosmic</li>
-            </ul>
-        </section>
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Art Gallery</h2>
+            <p>Explore the collection of AI-generated art in various themes and styles.</p>
 
-        <!-- Gallery Descriptions -->
-        <section>
-            <h3>Gallery Highlights</h3>
-            <article>
-                <h4>Abstract Art</h4>
-                <p>Dive into a world of shapes, colors, and forms that defy the ordinary. These AI-powered abstractions will challenge your perception.</p>
-            </article>
-            <article>
-                <h4>Surreal Landscapes</h4>
-                <p>Explore vast dreamlike landscapes that only AI can imagine—where the sky meets the ocean in a swirl of colors and textures.</p>
-            </article>
-            <article>
-                <h4>Portraits</h4>
-                <p>Beautifully crafted AI-generated portraits that capture both real and imagined personalities, full of depth and emotion.</p>
-            </article>
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Each image with a link for the lightbox effect -->
+                <div class="gallery-item">
+                    <a href="img/Nature.png" data-lightbox="gallery" data-title="Nature">
+                        <img src="img/Nature.png" alt="Nature">
+                    </a>
+                    <h4>Tranquility</h4>
+                    <p>The idea of waking up to the sound of birds and moving trees.</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="img/Corruption.png" data-lightbox="gallery" data-title="Corruption">
+                        <img src="img/Corruption.png" alt="Artwork 2">
+                    </a>
+                    <h4>Corruption</h4>
+                    <p>Many lose themselves once they get a taste of power.</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="img/Dystopia.png" data-lightbox="gallery" data-title="Dystopia">
+                        <img src="img/Dystopia.png" alt="Artwork 3">
+                    </a>
+                    <h4>Dystopia</h4>
+                    <p>Once people stop caring about everything, a dark future looms over.</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="img/Monster.png" data-lightbox="gallery" data-title="Monster">
+                        <img src="img/Monster.png" alt="Monster">
+                    </a>
+                    <h4>Cataclysm</h4>
+                    <p>Imagine a fantasy life in which a terrifying dragon exist to destroy humanity, would we stand a chance?</p>
+                </div>
+
+                <!-- Add more images in a similar format -->
+                <!-- Example for additional row -->
+                <div class="gallery-item">
+                    <a href="img/Feline.png" data-lightbox="gallery" data-title="Feline">
+                        <img src="img/Feline.png" alt="Feline">
+                    </a>
+                    <h4>Evolution</h4>
+                    <p>If there is one thing about living organisms, it would be evolution. What are the possibilities?</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="img/Beauty.png" data-lightbox="gallery" data-title="Beauty">
+                        <img src="img/Beauty.png" alt="Beauty">
+                    </a>
+                    <h4>Beauty</h4>
+                    <p>If love at first sight existed, would it perhaps look like this?</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="img/Gentle.png" data-lightbox="gallery" data-title="Gentle">
+                        <img src="img/Gentle.png" alt="Gentle">
+                    </a>
+                    <h4>Gentle</h4>
+                    <p>Eyes often tell a person's intentions, do you feel a caring nature in the gaze?</p>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="img/Broken.png" data-lightbox="gallery" data-title="Broken">
+                        <img src="img/Broken.png" alt="Broken">
+                    </a>
+                    <h4>Broken</h4>
+                    <p>Once shattered, the heart stops listening and the mind takes over.</p>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -60,5 +109,8 @@
     <footer>
         <p>&copy; 2024 ImagineAI. All rights reserved.</p>
     </footer>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
